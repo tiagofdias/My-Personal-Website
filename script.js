@@ -30,12 +30,6 @@ ScrollReveal().reveal('#home', {
     distance: '20%'
 });
 
-ScrollReveal().reveal('#about', {
-    origin: 'left',
-    duration: 2000,
-    distance: '20%'
-});
-
 ScrollReveal().reveal('#certifications', {
     origin: 'right',
     duration: 2000,
@@ -76,7 +70,7 @@ function toggleTableMicrosoft() {
     const Microsoft = document.querySelector('.service-box-microsoft');
     const table = document.querySelector('.service-box-microsoft table');
     if (table.style.display === "none" || table.style.display === "") {
-        Microsoft.style.height = "730px";
+        Microsoft.style.height = "800px";
         setTimeout(() => {
             table.style.display = "table";
         }, 500); // 2000 milliseconds = 2 seconds
@@ -90,7 +84,7 @@ function toggleTableAmazon() {
     const Amazon = document.querySelector('.service-box-amazon');
     const table = document.querySelector('.service-box-amazon table');
     if (table.style.display === "none" || table.style.display === "") {
-        Amazon.style.height = "270px";
+        Amazon.style.height = "350px";
         setTimeout(() => {
             table.style.display = "table";
         }, 500); // 2000 milliseconds = 2 seconds
@@ -118,7 +112,7 @@ function toggleTableGoogle() {
     const Google = document.querySelector('.service-box-google');
     const table = document.querySelector('.service-box-google table');
     if (table.style.display === "none" || table.style.display === "") {
-        Google.style.height = "240px";
+        Google.style.height = "220px";
         setTimeout(() => {
             table.style.display = "table";
         }, 500); // 2000 milliseconds = 2 seconds

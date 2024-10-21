@@ -316,7 +316,7 @@ span {
 }
 
 .heading {
-    font-size: 7rem;
+    font-size: 6rem;
     text-align: center;
     margin: 5rem 0;
 }
@@ -450,7 +450,6 @@ span {
     justify-content: center; 
 }
 
-
  .service-box-microsoft:hover {
     background: var(--main-color);
     color: black;
@@ -459,6 +458,17 @@ span {
 } 
 
  .service-box-microsoft {
+    background-color: var(--main-color);
+    height: 70px;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    text-align: left;
+
+}
+
+.services-container h4{
     background-color: var(--main-color);
     height: 70px;
     border-radius: 3rem;
@@ -487,7 +497,7 @@ span {
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -509,7 +519,7 @@ span {
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -531,7 +541,7 @@ span {
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
-    text-align: center;
+    text-align: left;
 }
 
 .service-box-google table{
